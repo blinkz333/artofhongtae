@@ -61,7 +61,7 @@ function Thaibook() {
             <Button
                   className="btn-round ml-1"
                   color="danger"
-                  href="/index"
+                  href="https://blinkz333.github.io/art_of_hongtae/#/"
                   outline
                 >
                   กลับ
@@ -105,7 +105,7 @@ function Thaibook() {
             <Button
                   className="btn-round ml-1"
                   color="danger"
-                  href="/index"
+                  href="https://blinkz333.github.io/art_of_hongtae/#/"
                   outline
                 >
                   กลับ

@@ -25,20 +25,10 @@ function SectionAboutMe() {
             <Row>
               <Col md="12">
                 <Card className="card-profile card-plain">
-                  <div className="card-avatar">
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                      <img
-                        alt="..."
-                        src={require("assets/img/faces/profile.jpg")}
-                      />
-                    </a>
-                  </div>
                   <CardBody>
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                      <div className="author">
+                    <div className="author">
                         <CardTitle tag="h4">Konthorn Taecholarn (Hongtae)</CardTitle>
                       </div>
-                    </a>
                     <Typist>
                       <p className="card-description text-center">
                         เริ่มวาดรูปเล่นตามผนังบ้านตั้งเเต่ 2 ขวบ <br/>

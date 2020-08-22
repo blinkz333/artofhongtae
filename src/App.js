@@ -13,11 +13,11 @@ class App extends Component {
     render(){
         return (
             <div>
-                <Route exact path='/index' component={Index} />
-                <Route path='/ramakien' component={Ramakien} />
-                <Route path='/disney' component={Disney} />
-                <Route path='/thaibook' component={ThaiBook} />
-                <Route path='/longka' component={Longka} />
+                <Route exact path='https://blinkz333.github.io/art_of_hongtae/#/' component={Index} />
+                <Route path='https://blinkz333.github.io/art_of_hongtae/#/ramakien' component={Ramakien} />
+                <Route path='https://blinkz333.github.io/art_of_hongtae/#/disney' component={Disney} />
+                <Route path='https://blinkz333.github.io/art_of_hongtae/#/thaibook' component={ThaiBook} />
+                <Route path='https://blinkz333.github.io/art_of_hongtae/#/longka' component={Longka} />
             </div>
         )
     }
