@@ -65,7 +65,7 @@ function SectionDisney() {
               <Button
                 className="btn-round ml-1"
                 color="danger"
-                href="/disney"
+                href="https://blinkz333.github.io/art_of_hongtae/#/disney"
                 outline
               >
                 View Gallary
