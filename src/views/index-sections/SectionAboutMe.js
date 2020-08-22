@@ -26,7 +26,8 @@ function SectionAboutMe() {
               <Col md="12">
                 <Card className="card-profile card-plain">
                   <CardBody>
-                    <div className="author">
+                    <a  onClick={(e) => e.preventDefault()}>
+                      <div className="author">
                         <CardTitle tag="h4">Konthorn Taecholarn (Hongtae)</CardTitle>
                       </div>
                     </a>
