@@ -25,6 +25,14 @@ function SectionAboutMe() {
             <Row>
               <Col md="12">
                 <Card className="card-profile card-plain">
+                  <div className="card-avatar">
+                    <a  onClick={(e) => e.preventDefault()}>
+                      <img
+                        alt="..."
+                        src={require("assets/img/faces/profile.jpg")}
+                      />
+                    </a>
+                  </div>
                   <CardBody>
                     <a  onClick={(e) => e.preventDefault()}>
                       <div className="author">
