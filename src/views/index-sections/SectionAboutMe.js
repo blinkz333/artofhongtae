@@ -29,6 +29,7 @@ function SectionAboutMe() {
                     <div className="author">
                         <CardTitle tag="h4">Konthorn Taecholarn (Hongtae)</CardTitle>
                       </div>
+                    </a>
                     <Typist>
                       <p className="card-description text-center">
                         เริ่มวาดรูปเล่นตามผนังบ้านตั้งเเต่ 2 ขวบ <br/>

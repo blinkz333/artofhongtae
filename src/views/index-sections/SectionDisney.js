@@ -65,7 +65,7 @@ function SectionDisney() {
               <Button
                 className="btn-round ml-1"
                 color="danger"
-                href="https://blinkz333.github.io/art_of_hongtae/#/disney"
+                href="/disney"
                 outline
               >
                 View Gallary
@@ -101,6 +101,7 @@ function SectionDisney() {
                   <a
                     className="left carousel-control carousel-control-prev"
                     data-slide="prev"
+                    href="#pablo"
                     onClick={(e) => {
                       e.preventDefault();
                       previous();
@@ -113,6 +114,7 @@ function SectionDisney() {
                   <a
                     className="right carousel-control carousel-control-next"
                     data-slide="next"
+                    href="#pablo"
                     onClick={(e) => {
                       e.preventDefault();
                       next();

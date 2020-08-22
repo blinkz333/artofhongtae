@@ -67,7 +67,7 @@ function SectionRamakien() {
               <Button
                 className="btn-round ml-1"
                 color="danger"
-                href="https://blinkz333.github.io/art_of_hongtae/#/ramakien"
+                href="/ramakien"
                 outline
               >
                 View Gallary
@@ -103,6 +103,7 @@ function SectionRamakien() {
                   <a
                     className="left carousel-control carousel-control-prev"
                     data-slide="prev"
+                    href="#pablo"
                     onClick={(e) => {
                       e.preventDefault();
                       previous();
@@ -115,6 +116,7 @@ function SectionRamakien() {
                   <a
                     className="right carousel-control carousel-control-next"
                     data-slide="next"
+                    href="#pablo"
                     onClick={(e) => {
                       e.preventDefault();
                       next();

@@ -14,10 +14,10 @@ class App extends Component {
         return (
             <div>
                 <Route exact path='/' component={Index} />
-                <Route path='https://blinkz333.github.io/art_of_hongtae/#/ramakien' component={Ramakien} />
-                <Route path='https://blinkz333.github.io/art_of_hongtae/#/disney' component={Disney} />
-                <Route path='https://blinkz333.github.io/art_of_hongtae/#/thaibook' component={ThaiBook} />
-                <Route path='https://blinkz333.github.io/art_of_hongtae/#/longka' component={Longka} />
+                <Route path='/ramakien' component={Ramakien} />
+                <Route path='/disney' component={Disney} />
+                <Route path='/thaibook' component={ThaiBook} />
+                <Route path='/longka' component={Longka} />
             </div>
         )
     }
