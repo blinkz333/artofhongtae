@@ -26,7 +26,7 @@ function SectionAboutMe() {
               <Col md="12">
                 <Card className="card-profile card-plain">
                   <div className="card-avatar">
-                    <a  onClick={(e) => e.preventDefault()}>
+                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
                       <img
                         alt="..."
                         src={require("assets/img/faces/profile.jpg")}
@@ -34,7 +34,7 @@ function SectionAboutMe() {
                     </a>
                   </div>
                   <CardBody>
-                    <a  onClick={(e) => e.preventDefault()}>
+                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
                       <div className="author">
                         <CardTitle tag="h4">Konthorn Taecholarn (Hongtae)</CardTitle>
                       </div>
