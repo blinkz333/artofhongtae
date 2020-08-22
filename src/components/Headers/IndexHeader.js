@@ -25,12 +25,6 @@ function IndexHeader() {
             <Container>
               <div className="title-brand">
                 <h1 className="presentation-title">Art <br/> of Hongtae</h1>
-                <div className="fog-low">
-                  <img alt="..." src={require("assets/img/fog-low.png")} />
-                </div>
-                <div className="fog-low right">
-                  <img alt="..." src={require("assets/img/fog-low.png")} />
-                </div>
               </div>
               {/* <h2 className="presentation-subtitle text-center">
                 Make your mark with a Free Bootstrap 4 (Reactstrap) UI Kit!
