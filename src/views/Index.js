@@ -13,8 +13,26 @@ import SectionThaibook from "views/index-sections/SectionThaibook.js"
 import SectionLongka from "views/index-sections/SectionLongka.js"
 import SectionAboutme from "views/index-sections/SectionAboutMe.js";
 
+import {FaArrowCircleUp} from 'react-icons/fa';
 
 function Index() {
+
+  const [showScroll, setShowScroll] = useState(false)
+
+  const checkScrollTop = () => {
+    if (!showScroll && window.pageYOffset > 1000){
+      setShowScroll(true)
+    } else if (showScroll && window.pageYOffset <= 400){
+      setShowScroll(false)
+    }
+  };
+
+const scrollTop = () =>{
+    window.scrollTo({top: 0, behavior: 'smooth'});
+};
+
+window.addEventListener('scroll', checkScrollTop)
+
   document.documentElement.classList.remove("nav-open");
   React.useEffect(() => {
     document.body.classList.add("index");
@@ -32,6 +50,7 @@ function Index() {
         <SectionThaibook/>
         <SectionLongka/>
         <SectionAboutme />
+        <FaArrowCircleUp className="scrollTop" onClick={scrollTop} style={{height: 40, display: showScroll ? 'flex' : 'none'}}/>
         <DemoFooter />
       </div>
     </>

@@ -18,8 +18,27 @@ import Gallery from 'react-grid-gallery';
 import Typist from 'react-typist';
 
 import { isMobile } from "react-device-detect";
+import {FaArrowCircleUp} from 'react-icons/fa';
+
 
 function Disney() {
+
+  const [showScroll, setShowScroll] = useState(false)
+
+  const checkScrollTop = () => {
+    if (!showScroll && window.pageYOffset > 1000){
+      setShowScroll(true)
+    } else if (showScroll && window.pageYOffset <= 400){
+      setShowScroll(false)
+    }
+  };
+
+const scrollTop = () =>{
+    window.scrollTo({top: 0, behavior: 'smooth'});
+};
+
+window.addEventListener('scroll', checkScrollTop)
+
   document.documentElement.classList.remove("nav-open");
   React.useEffect(() => {
     document.body.classList.add("index");
@@ -68,6 +87,7 @@ function Disney() {
               </Button>
             </div>
           </div>
+          <FaArrowCircleUp className="scrollTop" onClick={scrollTop} style={{height: 40, display: showScroll ? 'flex' : 'none'}}/>
         <DemoFooter />
         </>
       )
@@ -111,6 +131,7 @@ function Disney() {
               </Button>
             </div>
           </div>
+          <FaArrowCircleUp className="scrollTop" onClick={scrollTop} style={{height: 40, display: showScroll ? 'flex' : 'none'}}/>
         <DemoFooter />
         </>
       )
