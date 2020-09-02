@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 // nodejs library that concatenates strings
 import classnames from "classnames";
 
@@ -52,11 +51,10 @@ function IndexNavbar() {
     >
       <Container>
         <div className="navbar-translate">
-          <NavbarBrand
+        <NavbarBrand
             data-placement="bottom"
             href="https://blinkz333.github.io/art_of_hongtae/#/"
             title="Art-Of-Hongtae"
-            tag={Link}
           >
             Art Of Hongtae
           </NavbarBrand>
