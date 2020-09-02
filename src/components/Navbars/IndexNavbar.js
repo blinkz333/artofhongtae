@@ -54,7 +54,7 @@ function IndexNavbar() {
         <div className="navbar-translate">
           <NavbarBrand
             data-placement="bottom"
-            to="https://blinkz333.github.io/art_of_hongtae/#/"
+            href="https://blinkz333.github.io/art_of_hongtae/#/"
             title="Art-Of-Hongtae"
             tag={Link}
           >
