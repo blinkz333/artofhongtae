@@ -4747,7 +4747,9 @@ License - nucleoapp.com/license/
   color: #FFFFFF; }
 
 .section-dark {
-  background-color: #0b1011; }
+  /* background-color: #0b1011;  */
+  background-color: #151719;
+}
 
 .section-image,
 .section-gold,

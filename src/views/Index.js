@@ -28,7 +28,7 @@ function Index() {
   };
 
 const scrollTop = () =>{
-    window.scrollTo({top: 0, behavior: 'smooth'});
+    window.scrollTo({top: 800, behavior: 'smooth'});
 };
 
 window.addEventListener('scroll', checkScrollTop)
