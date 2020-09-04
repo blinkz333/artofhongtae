@@ -12,6 +12,8 @@ import {
   CarouselIndicators,
   CarouselCaption, } from "reactstrap";
 
+  import { Zoom } from 'react-slideshow-image';
+
 // core components
 
 function SectionRamakien() {
@@ -42,9 +44,7 @@ function SectionRamakien() {
   const items = [
     {
       src: require("assets/img/ramakienEx1.jpg"),
-      // altText: "Tossakan",
-      // caption: "Tossakan",
-    },
+     },
     {
       src: require("assets/img/ramakienEx2.jpg"),
     },
@@ -52,6 +52,19 @@ function SectionRamakien() {
       src: require("assets/img/ramakienEx3.jpg"),
     },
   ];
+
+  const images = [
+    require("assets/img/ramakienEx1.jpg"),
+    require("assets/img/ramakienEx2.jpg"),
+    require("assets/img/ramakienEx3.jpg")
+  ];
+
+  const zoomOutProperties = {
+    indicators: false,
+    scale: 0.4
+  }
+
+ 
 
   return (
     <>
@@ -75,7 +88,7 @@ function SectionRamakien() {
             </Col>
             <Col lg="8" md="12">
             <Card className="page-carousel">
-                <Carousel
+                {/* <Carousel
                   activeIndex={activeIndex}
                   next={next}
                   previous={previous}
@@ -126,7 +139,17 @@ function SectionRamakien() {
                     <span className="fa fa-angle-right" />
                     <span className="sr-only">Next</span>
                   </a>
-                </Carousel>
+                </Carousel> */}
+
+                <Zoom {...zoomOutProperties}>
+                  {images.map((each, index) => (
+                  <div key={index} style={{width: "100%"}}>
+                      <img style={{ objectFit: "cover", width: "100%" }} src={each} />
+                  </div>
+                  ))}
+                </Zoom>
+
+                
               </Card>
             </Col>
           </Row>

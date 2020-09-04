@@ -10,7 +10,10 @@ import {
   Carousel,
   CarouselItem,
   CarouselIndicators,
-  CarouselCaption, } from "reactstrap";
+  CarouselCaption, 
+} from "reactstrap";
+
+  import { Zoom } from 'react-slideshow-image';
 
 // core components
 
@@ -51,6 +54,17 @@ function SectionLongka() {
     },
   ];
 
+  const images = [
+    require("assets/img/LongkaEx1.jpg"),
+    require("assets/img/LongkaEx2.jpg"),
+    require("assets/img/LongkaEx3.jpg")
+  ];
+
+  const zoomOutProperties = {
+    indicators: false,
+    scale: 0.4
+  }
+
   return (
     <>
       <div className="section section-dark section-nucleo-icons">
@@ -73,7 +87,7 @@ function SectionLongka() {
             </Col>
             <Col lg="8" md="12">
             <Card className="page-carousel">
-                <Carousel
+                {/* <Carousel
                   activeIndex={activeIndex}
                   next={next}
                   previous={previous}
@@ -124,7 +138,14 @@ function SectionLongka() {
                     <span className="fa fa-angle-right" />
                     <span className="sr-only">Next</span>
                   </a>
-                </Carousel>
+                </Carousel> */}
+                 <Zoom {...zoomOutProperties}>
+                  {images.map((each, index) => (
+                  <div key={index} style={{width: "100%"}}>
+                      <img style={{ objectFit: "cover", width: "100%" }} src={each} />
+                  </div>
+                  ))}
+                </Zoom>
               </Card>
             </Col>
           </Row>

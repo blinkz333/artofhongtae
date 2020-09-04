@@ -12,6 +12,8 @@ import {
   CarouselIndicators,
   CarouselCaption, } from "reactstrap";
 
+  import { Zoom } from 'react-slideshow-image';
+
 // core components
 
 function SectionDisney() {
@@ -51,6 +53,17 @@ function SectionDisney() {
     },
   ];
 
+  const images = [
+    require("assets/img/DisneyEx1.jpg"),
+    require("assets/img/DisneyEx2.jpg"),
+    require("assets/img/DisneyEx3.jpg")
+  ];
+
+  const zoomOutProperties = {
+    indicators: false,
+    scale: 0.4
+  }
+
   return (
     <>
       <div className="section section-dark section-nucleo-icons">
@@ -73,7 +86,7 @@ function SectionDisney() {
             </Col>
             <Col lg="8" md="12">
             <Card className="page-carousel">
-                <Carousel
+                {/* <Carousel
                   activeIndex={activeIndex}
                   next={next}
                   previous={previous}
@@ -124,7 +137,14 @@ function SectionDisney() {
                     <span className="fa fa-angle-right" />
                     <span className="sr-only">Next</span>
                   </a>
-                </Carousel>
+                </Carousel> */}
+                <Zoom {...zoomOutProperties}>
+                  {images.map((each, index) => (
+                  <div key={index} style={{width: "100%"}}>
+                      <img style={{ objectFit: "cover", width: "100%" }} src={each} />
+                  </div>
+                  ))}
+                </Zoom>
               </Card>
             </Col>
           </Row>
