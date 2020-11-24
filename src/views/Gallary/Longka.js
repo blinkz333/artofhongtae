@@ -80,7 +80,7 @@ window.addEventListener('scroll', checkScrollTop)
               <Button
                     className="btn-round ml-1"
                     color="danger"
-                    href="https://blinkz333.github.io/art_of_hongtae/#/"
+                    href="https://blinkz333.github.io/artofhongtae/#/"
                     outline
                   >
                     กลับ
@@ -124,7 +124,7 @@ window.addEventListener('scroll', checkScrollTop)
               <Button
                     className="btn-round ml-1"
                     color="danger"
-                    href="https://blinkz333.github.io/art_of_hongtae/#/"
+                    href="https://blinkz333.github.io/artofhongtae/#/"
                     outline
                   >
                     กลับ

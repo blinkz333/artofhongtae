@@ -80,7 +80,7 @@ function SectionRamakien() {
               <Button
                 className="btn-round ml-1"
                 color="danger"
-                href="https://blinkz333.github.io/art_of_hongtae/#/ramakien"
+                href="https://blinkz333.github.io/artofhongtae/#/ramakien"
                 outline
               >
                 View Gallary

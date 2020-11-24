@@ -53,7 +53,7 @@ function IndexNavbar() {
         <div className="navbar-translate">
         <NavbarBrand
             data-placement="bottom"
-            to="https://blinkz333.github.io/art_of_hongtae/#/"
+            to="https://blinkz333.github.io/artofhongtae/#/"
             title="Art-Of-Hongtae"
           >
             Art Of Hongtae
@@ -89,7 +89,7 @@ function IndexNavbar() {
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://www.instagram.com/art_of_hongtae/"
+                href="https://www.instagram.com/artofhongtae/"
                 title="Follow us on Instagram"
               >
                 <i className="fa fa-instagram" />

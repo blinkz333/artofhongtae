@@ -78,7 +78,7 @@ function SectionThaibook() {
               <Button
                 className="btn-round ml-1"
                 color="danger"
-                href="https://blinkz333.github.io/art_of_hongtae/#/thaibook"
+                href="https://blinkz333.github.io/artofhongtae/#/thaibook"
                 outline
               >
                 View Gallary

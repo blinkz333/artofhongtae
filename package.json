@@ -2,7 +2,7 @@
   "name": "paper-kit-react",
   "version": "1.2.0",
   "private": true,
-  "homepage": "https://blinkz333.github.io/art_of_hongtae/",
+  "homepage": "https://blinkz333.github.io/artofhongtae/",
   "dependencies": {
     "classnames": "2.2.6",
     "gh-pages": "^3.1.0",
