@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/artofhongtae/static/css/main.cdb4a98b.chunk.css",
-    "main.js": "/artofhongtae/static/js/main.4c96abe9.chunk.js",
-    "main.js.map": "/artofhongtae/static/js/main.4c96abe9.chunk.js.map",
+    "main.js": "/artofhongtae/static/js/main.3c5259b4.chunk.js",
+    "main.js.map": "/artofhongtae/static/js/main.3c5259b4.chunk.js.map",
     "runtime-main.js": "/artofhongtae/static/js/runtime-main.2832e0f1.js",
     "runtime-main.js.map": "/artofhongtae/static/js/runtime-main.2832e0f1.js.map",
     "static/css/2.69507427.chunk.css": "/artofhongtae/static/css/2.69507427.chunk.css",
     "static/js/2.15dbf0cd.chunk.js": "/artofhongtae/static/js/2.15dbf0cd.chunk.js",
     "static/js/2.15dbf0cd.chunk.js.map": "/artofhongtae/static/js/2.15dbf0cd.chunk.js.map",
     "index.html": "/artofhongtae/index.html",
-    "precache-manifest.014ee99e98e42a95bfcb0ce19cb3bea2.js": "/artofhongtae/precache-manifest.014ee99e98e42a95bfcb0ce19cb3bea2.js",
+    "precache-manifest.7acb82dcfd9b95497df78575d43b0468.js": "/artofhongtae/precache-manifest.7acb82dcfd9b95497df78575d43b0468.js",
     "service-worker.js": "/artofhongtae/service-worker.js",
     "static/css/2.69507427.chunk.css.map": "/artofhongtae/static/css/2.69507427.chunk.css.map",
     "static/css/main.cdb4a98b.chunk.css.map": "/artofhongtae/static/css/main.cdb4a98b.chunk.css.map",
@@ -65,6 +65,6 @@
     "static/css/2.69507427.chunk.css",
     "static/js/2.15dbf0cd.chunk.js",
     "static/css/main.cdb4a98b.chunk.css",
-    "static/js/main.4c96abe9.chunk.js"
+    "static/js/main.3c5259b4.chunk.js"
   ]
 }
